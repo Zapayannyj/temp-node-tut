@@ -4,9 +4,6 @@ const server = http.createServer((req, res) => {
     if(req.url === '/'){
         res.end('Home Page')
     }
-    else if(req.url === '/hui'){
-        res.end('Fuck off')
-    }
 
     else if(req.url === '/about'){
         //Blocking code!!
